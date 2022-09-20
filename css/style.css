@@ -13,22 +13,7 @@
 .debug section .row > * {
     border: 2px dashed;
 }
-.debug .col-big {
-    background-color: #1e90ff;
-}
-.debug .col-small {
-    background-color: #ffc0cb;
-}
-.debug .hero-immagine {
-    height: 500px;
-    
-}
 
-.debug .hero-immagine .hero-text {
-    background-color: #ee82ee;
-    height: 100%;
-    border: 2px dashed;
-}
 
 .debug section:last-child .container {
     height: 900px;
@@ -90,6 +75,16 @@ button{
     border-radius: 40px;
     border: none;
     font-size: 18px;
+}
+
+.titolo-sezione{
+    padding-top: 40px;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+.info-sezioni{
+    font-size: 22px;
 }
 
 /*HEADER*/
@@ -159,9 +154,11 @@ section:nth-child(2n) {
 
 .col-big {
     width: 60%;
+    text-align: center;
 }
 .col-small {
     width: 40%;
+    text-align: left;
 }
 
 /*FOOTER*/
