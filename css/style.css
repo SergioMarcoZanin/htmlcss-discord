@@ -7,12 +7,6 @@
 
 /* DEBUG */
 
-.debug section .row {
-    height: 400px;
-}
-.debug section .row > * {
-    border: 2px dashed;
-}
 
 .debug footer {
     background-color: #23272a;
@@ -23,19 +17,7 @@
 }
 .debug .footer-top > .row{
     height: 400px;
-    border: 2px dashed;
 }
-.debug .footer-top .row .col-small {
-    background-color: #f08080;
-}
-.debug .footer-top .col-big {
-    background-color: #20b2aa;
-}
-.debug .footer-top .col-big .col {
-    border: 2px dashed white;
-}
-
-
 
 /*COMMON*/
 .container, .hero-text {
@@ -185,11 +167,13 @@ section:nth-child(2n) {
 }
 .col ul{
     list-style: none;
+    color: white;
 }
-.col li a{
+.col ul li a{
     justify-content: left;
     display: flex;
     padding: 10px;
     text-decoration: none;
+    color: white;
 }
  
