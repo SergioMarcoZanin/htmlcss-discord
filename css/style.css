@@ -6,9 +6,6 @@
 }
 
 /* DEBUG */
-.debug header {
-    background-color: #add8e6;
-}
 
 .debug section .row {
     height: 400px;
@@ -22,12 +19,12 @@
 .debug .col-small {
     background-color: #ffc0cb;
 }
-.debug .hero {
-    background-color: #00008b;
+.debug .hero-immagine {
     height: 500px;
+    
 }
 
-.debug .hero .container-small {
+.debug .hero-immagine .hero-text {
     background-color: #ee82ee;
     height: 100%;
     border: 2px dashed;
@@ -70,13 +67,13 @@
 }
 
 /*COMMON*/
-.container, .container-small {
+.container, .hero-text {
     margin: auto;
 }
 .container {
     max-width: 1200px;
 }
-.container-small {
+.hero-text {
     max-width: 900px;
 }
 .row {
@@ -85,6 +82,14 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+button{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 40px;
+    border: none;
+    font-size: 18px;
 }
 
 /*HEADER*/
@@ -116,15 +121,33 @@ body{
     color: white;
     padding: 10px;
 }
-.login {
-    text-align: center;
-    background-color: white;
-    border-radius: 30%;
-    padding: 10px;
+
+
+.hero-immagine {
+    padding: 50px 0;
+    background-color:#255EE9;
+    height: 500px;
 }
 
-.hero {
-    padding: 50px 0;
+.hero-text{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.titolo{
+    padding: 30px;
+    font-size: 50px;
+}
+
+#button-browser{
+    background-color: #23272A ;
+    color: white;
+}
+
+#info-discord{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 /*MAIN*/
 section {
@@ -162,3 +185,5 @@ section:nth-child(2n) {
     justify-content: space-between;
     align-items: center;
 }
+
+ 
