@@ -14,12 +14,6 @@
     border: 2px dashed;
 }
 
-
-.debug section:last-child .container {
-    height: 900px;
-    background-color: green;
-    border: 2px dashed;
-}
 .debug footer {
     background-color: #23272a;
 }
@@ -40,16 +34,8 @@
 .debug .footer-top .col-big .col {
     border: 2px dashed white;
 }
-.debug .footer-bottom .container {
-    background-color: #7fffd4;
-    height: 50px;
-}
 
-.debug .footer-bottom .row > * {
-    background-color: #ffb6c1;
-    border: 2px dashed;
-    padding: 0 5px;
-}
+
 
 /*COMMON*/
 .container, .hero-text {
@@ -87,6 +73,11 @@ button{
     font-size: 22px;
 }
 
+.blue-bottom{
+    margin-top: 30px;
+    background-color: #7289DA ;
+    color: white;
+}
 /*HEADER*/
 .header-top {
     padding: 16px 0;
@@ -140,7 +131,7 @@ button{
     color: white;
 }
 
-#info-discord{
+.info-discord{
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -159,6 +150,16 @@ section:nth-child(2n) {
 .col-small {
     width: 40%;
     text-align: left;
+}
+
+.container{
+    text-align: center;
+    
+}
+
+.video-chat{
+    width: 1000px;
+    height: 600px;
 }
 
 /*FOOTER*/
@@ -182,5 +183,13 @@ section:nth-child(2n) {
     justify-content: space-between;
     align-items: center;
 }
-
+.col ul{
+    list-style: none;
+}
+.col li a{
+    justify-content: left;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+}
  
